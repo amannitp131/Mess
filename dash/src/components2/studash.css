@@ -1,0 +1,166 @@
+/* styles.css */
+body{
+    padding:0px;
+    margin:0px;
+
+}
+.app {
+    font-family: Arial, sans-serif;
+    background-color: #1e293b; /* Dark background */
+    color: #f1f5f9; /* Light text */
+    min-height: 100vh;
+  }
+
+  .app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0f172a; /* Darker header background */
+    color: white;
+  }
+  
+  .logo-title span {
+    font-weight: bold;
+    font-size: 18px; /* Make the text smaller */
+    color: #f1f5f9; /* Light text */
+    white-space: nowrap; /* Keep the text on one line */
+  }
+  
+  .app-header-actions .user-profile {
+    display: flex;
+    align-items: center;
+    background-color: #334155;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .app-header-actions .user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  
+  .app-body {
+    display: flex;
+    height: 100%;
+  }
+  
+  .app-body-navigation {
+    width: 250px;
+    background-color: #0f172a; /* Dark sidebar */
+    padding: 20px;
+  }
+  
+  .navigation a {
+    display: block;
+    padding: 15px;
+    color: #f1f5f9; /* Light text */
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #334155;
+  }
+  
+  .navigation a:hover {
+    background-color: #1e293b;
+  }
+  
+  .You {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .service-section {
+    padding: 20px;
+    background-color: #334155; /* Dark section background */
+    border-radius: 10px;
+    color: #f1f5f9;
+    width: fit-content;
+  }
+  
+  .tiles {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .tile {
+    background-color: #475569; /* Dark tile background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .tile-header h3 {
+    margin: 0;
+    color: #f1f5f9; /* Light text */
+  }
+  
+  .tile .icon-button {
+    font-size: 30px;
+    color: #e2e8f0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #1e293b;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .tile:hover {
+    background-color:#fff;
+    cursor: pointer;
+    
+   
+  }
+  .tile {
+    background-color: #475569; /* Dark tile background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.tile-header h3 {
+    margin: 0;
+    color: #f1f5f9; /* Light text */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.tile .icon-button {
+    font-size: 30px;
+    color: #e2e8f0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #1e293b;
+    border-radius: 50%;
+    margin-top: 10px;
+    transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+/* Hover effect for the tile */
+.tile:hover {
+    background-color: #fff; /* White background on hover */
+    cursor: pointer;
+}
+
+/* Change text color to black on hover */
+.tile:hover .tile-header h3 {
+    color: black; /* Text color changes to black on hover */
+}
+
+.tile:hover .icon-button {
+    color: black; /* Icon color changes to black on hover */
+}
+
+  

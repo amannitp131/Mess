@@ -1,0 +1,47 @@
+/* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+  
+  div {
+    text-align: center; /* This will apply to all <div> elements */
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  div.countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  div.countdown-item {
+    margin: 0 15px;
+  }
+  
+  span.countdown-number {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  span.countdown-label {
+    font-size: 14px;
+  }
+  
+  p.coming-soon-footer {
+    font-size: 18px;
+  }
